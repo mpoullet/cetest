@@ -5,6 +5,7 @@ LOCAL_SRC_FILES := cetest.cpp
 
 LOCAL_MODULE := cetest
 
+LOCAL_LDLIBS := -llog
 LOCAL_LDFLAGS += -ldspengineiface
 
 include $(BUILD_EXECUTABLE)
