@@ -22,6 +22,10 @@
 // DMAI_DEBUG=1: errors and warnings
 // DMAI_DEBUG=2: all messages
 
+// To redirect stdio/stderr to Android logging system, you must wrap this program with logwrapper, i.e. 
+// "/system/bin/logwrapper /system/bin/cetest"
+// If it starts as a service in init.rc, you must use the logwrapper in init.rc too.
+
 int main(int argc, char** argv)
 {
     // Set no buffering
