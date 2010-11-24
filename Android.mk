@@ -1,3 +1,5 @@
+ifneq ($(strip $(libdspengineiface_already_built)),)
+
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
@@ -9,3 +11,5 @@ LOCAL_LDLIBS := -llog
 LOCAL_LDFLAGS += -ldspengineiface
 
 include $(BUILD_EXECUTABLE)
+
+endif
