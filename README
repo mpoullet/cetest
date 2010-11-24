@@ -1,0 +1,8 @@
+TI Codec Engine Test
+
+This code works only in a Rowboat-based Android system:
+http://code.google.com/p/rowboat/
+
+With this small example, you can check if TI Codec Engine and TI DMAI API are properly installed.
+It also shows how to use the CE_DEBUG and DMAI_DEBUG variables to debug your code.
+Another feature is to test if stdio/stderr redirections to the Android logging system work.
